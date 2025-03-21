@@ -1,0 +1,8 @@
+pandas
+numpy
+python-aqi
+matplotlib
+seaborn
+statsmodels
+scikit-learn
+tensorflow
