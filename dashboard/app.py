@@ -97,15 +97,3 @@ elif option == 'Humidity':
     else:
         st.write("The 'humidity' column is missing in the data.")
     st.markdown('</div>', unsafe_allow_html=True)
-
-# Control panel (optional for future use)
-st.subheader("Control Panel")
-st.write("This section allows you to configure and control various parameters.")
-control_option = st.selectbox("Choose a control option:", ["Adjust Parameters", "Refresh Data"])
-
-if control_option == "Adjust Parameters":
-    st.write("Here, you can adjust the parameters for forecasting models, or configure other options.")
-elif control_option == "Refresh Data":
-    st.write("You can refresh the data here.")
-    if st.button('Refresh Data'):
-        st.write("Data has been refreshed successfully.")
