@@ -1,0 +1,72 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000 !important;  /* Force background color to black */
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Content Styling */
+.stMain {
+    padding: 20px;
+    background-color: #ffffff;  /* White background for main content */
+}
+
+/* Header Section */
+.main-header {
+    color: #388E3C;
+    font-size: 2.8em;
+    font-weight: bold;
+    padding-bottom: 25px;
+    border-bottom: 4px solid #2E7D32;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+/* Subheader Section */
+.subheader {
+    color: #2C6B3B;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+/* Section Description */
+.section-description {
+    font-size: 1.2em;
+    color: #757575;
+    padding-bottom: 25px;
+    line-height: 1.6;
+}
+
+/* Graph and Table Containers */
+.graph-container,
+.table-container {
+    border: 2px solid #ddd;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Graph Container Styling */
+.graph-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Table Container Styling */
+.table-container {
+    overflow-x: auto;
+}
+
+/* Main content area */
+.stMain {
+    padding: 20px;
+    background-color: #000000;  /* Main content background */
+}
